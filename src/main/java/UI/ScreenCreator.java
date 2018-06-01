@@ -40,11 +40,11 @@ public class ScreenCreator extends Application {
 
         int[] sizes = new int[]{3, 5, 10, 30, 200};
         ChoiceBox<String> choiceSize = new ChoiceBox<>(FXCollections.observableArrayList(
-                "For little bitchli's", "Normal", "Middle", "Long", "WTF SO LONG"));
+                "Low", "Normal", "Middle", "Long", "SO LONG"));
         choiceSize.getSelectionModel().selectFirst();
         int[] speeds = new int[]{10, 20, 25, 40, 50};
         ChoiceBox<String> choiceSpeed = new ChoiceBox<>(FXCollections.observableArrayList(
-                "For little bitchli's", "Normal", "Middle", "Hard", "WTF SO SPEED"));
+                "Low", "Normal", "Middle", "Hard", "SO SPEED"));
         choiceSpeed.getSelectionModel().selectFirst();
 
         choiceSize.getSelectionModel().selectedIndexProperty().addListener((observable, oldValue, newValue) ->

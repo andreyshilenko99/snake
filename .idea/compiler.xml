@@ -2,15 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for snake" enabled="true">
+        <sourceOutputDir name="target/production/snake/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/production/snake/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="snake" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="snake" target="8" />
+      <module name="snake" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
